@@ -1,0 +1,17 @@
+Historias de usuario con criterios de aceptación.
+
+HU 1: como usuario quiero recibir una lista personalizada basada en mis gustos más recientes.
+Criterio de aceptación:
+La lista debe contener al menos 10 artistas sugeridos que el usuario no haya guardado previamente en su biblioteca
+
+HU 2: Como usuario quiero descargar playlists en mi dispositivo
+Criterios de aceptación: 
+Debe aparecer un indicador visual cuando la descarga esté completa
+
+HU 3: Como usuario quiero compartir lo que escucho en mis redes sociales, para conectar con mis amigos a través de la música.
+Criterios:
+El sistema debe crear un enlace directo a la canción en Spotify.
+
+HU 4: Como usuario quiero crear una sala de escucha compartida     	
+Criterios: 
+El anfitrión debe poder crear un enlace o código QR de invitación y cualquier cambio de reproducción, y reflejarse en todos los dispositivos.
