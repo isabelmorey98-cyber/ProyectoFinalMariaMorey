@@ -1,0 +1,26 @@
+INFORME PROYECTO FINAL 
+Proyecto: Aplicación Spotify
+Equipo - testing: Maria Isabel Morey
+Fecha: 26 de febrero de 2026
+_________________________________________________________
+
+Alcance: Se evaluaron las funcionalidades generales de la aplicación de Spotify, teniendo como enfoque principal garantizar la continuidad del servicio para el usuario final, con los siguientes aspectos a considerar  
+Gestión de Acceso: Login, registro y recuperación de contraseña.
+Reproducción: Controles de audio, modo offline.
+Búsqueda: Filtros, precisión de resultados y sugerencias.
+Biblioteca y Playlists: Creación, edición y sincronización de listas.
+
+Ambiente: Las pruebas se ejecutaron en un entorno controlado para simular condiciones reales del uso de la aplicación
+Dispositivos: Dispositivos móvil (HONOR X8, tecno spark 10 pro), PC (DELL)
+Red: Conexiones Wi-Fi y redes móviles 4G
+
+Resultados: Según las pruebas ejecutadas indican que spotify es una aplicación bastante estable en su desarrollo, sin embargo se encontraron puntos de mejora en cuanto a los gustos y recomendaciones, pues esta es la columna vertebral de la misma, pues esta ofrece un asesor personal inteligente, donde el usuario no tiene que pensar qué escuchar ya la app lo sabe, además este puede recibir recomendaciones que resuenan con su estado de ánimo en tiempo real, ya que se genera un vínculo de fidelidad con la plataforma.
+
+Defectos críticos: Entre los defectos críticos se identificaron 2 
+CP-25: Se repiten dos artistas de los que ya estan en favoritos
+CP-26: La lista sugerida contiene 08 artistas y 02 ya estan en favoritos
+
+Conclusiones: La aplicación presenta un alto nivel de estabilidad en sus funciones principales de acceso y reproducción. Sin embargo, la gestión de sugerencias de artistas, listas de reproducción y la transición entre modos de conexión (modo avión, ahorro de datos) presentan inconsistencias menores.
+
+Recomendaciones: Se recomienda que el equipo de desarrollo aborde la implementación de la opción “olvidé mi contraseña” para corregir el fallo que se detectó en el CP-03, por el hecho de no existir una opción visible para recuperar la clave. Es vital añadir este enlace en la pantalla de login para reducir el abandono de usuarios.
+En este sentido también se sugiere ajustar el algoritmo de descubrimiento, para que la herramienta de Discovery Mode filtre con un 100% de eficacia los artistas ya existentes en la biblioteca del usuario, garantizando que el contenido sea realmente nuevo.En los casos CP-25 y CP-26, se observó que la lista de "Descubrimiento" repite artistas que ya están en favoritos.
